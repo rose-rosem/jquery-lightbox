@@ -1,0 +1,152 @@
+@media (max-width: 980px) {
+    /*Unfloat brand*/
+    body .navbar-fixed-top .brand{
+        float: left;
+        margin-left:0;
+        padding-left:10px;
+        padding-right: 10px;
+    }
+}
+
+/*@media (min-width: 768px) {*/
+    /*body .navbar-nav li a{*/
+        /*padding-top: 10px;*/
+        /*padding-bottom: 10px;*/
+    /*}*/
+/*}*/
+
+body a{
+    text-decoration: none !important;
+}
+
+/*navbar start*/
+.navbar{
+    min-height: 40px !important;
+    font-size: 17px;
+    margin-bottom:0 ;
+}
+
+.navbar .brand{
+    float: right;
+    font-weight: bold;
+    color: rgba(0,0,0,.1);
+    font-size: 22px;
+    line-height: 50px;
+    text-shadow: 0 1px 0 rgba(255,255,255,.1), 0 0 30px rgba(255,255,255,.125);
+    transition: all .2s linear;
+}
+
+.navbar .brand:hover{
+    color: #563d7c;
+    text-decoration: none;
+    text-shadow: 0 1px 0 rgba(255,255,255,.1), 0 0 30px rgba(255,255,255,.4);
+}
+.navbar-default{
+    background-color: #ffffff;
+    border-bottom: 1px solid #563d7c;
+}
+/*.navbar-inverse{*/
+    /*background-color: #1b1b1b;*/
+    /*border-radius:0 ;*/
+    /*border-color: #252525;*/
+/*}*/
+
+/*.navbar .navbar-inner .nav a{*/
+    /*color: #999;*/
+/*}*/
+.navbar-default .navbar-nav li a{
+    font-size: 14px;
+    font-weight: 500;
+    color: #563d7c;
+}
+/*jumbotron start*/
+.jumbotron{
+    /*background-color:slateblue;*/
+    background: linear-gradient(#563d7c, slateblue,#563d7c);
+    text-align: center;
+    color:white;
+}
+.jumbotron p{
+    margin: 30px;
+}
+#home .jumbotron h1{
+    margin-top: 70px;
+    padding-bottom: 10px;
+}
+.jumbotron p{
+    padding-top: 10px;
+}
+.jumbotron p .btn{
+    height: 50px;
+    background-color: transparent;
+    color: #ffffff;
+    transition: all .2s linear;
+    line-height: 30px;
+}
+.jumbotron p .btn:hover{
+    background-color: rgba(153,153,153,.2);
+}
+.jumbotron .container .git-btn a{
+    margin-bottom: 20px;
+}
+/*.jumbotron .icon{*/
+    /*margin: 0 auto;*/
+    /*text-align: center;*/
+    /*width: 53px;*/
+    /*height:19px;*/
+/*}*/
+
+/*.jumbotron .icon img{*/
+    /*width: 53px;*/
+    /*height:19px;*/
+/*}*/
+
+.jumbotron .git-btn{
+    height: 20px;
+    overflow: hidden;
+}
+.jumbotron .git-btn .btn{
+    background-color: #eee;
+    background-image: linear-gradient(to bottom,#fcfcfc 0,#eee 100%);
+    background-repeat: no-repeat;
+    border: 1px solid #d5d5d5;
+    padding: 2px 5px 2px 4px;
+    color: #333;
+    text-decoration: none;
+    text-shadow: 0 1px 0 #fff;
+    white-space: nowrap;
+    cursor: pointer;
+    border-radius: 3px;
+    margin: 10px;
+    margin-top: -10px;
+}
+
+.jumbotron .git-btn .btn img {
+    width: 14px;
+    height: 14px;
+    /*margin-left: 4px;*/
+    /*margin-right: 4px;*/
+}
+.jumbotron .git-btn .gh-text {
+    /*margin-right: 4px;*/
+}
+
+/*section start*/
+#support h4{
+    font-weight: normal;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+#support li{
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+#support p{
+    margin: 0 !important;
+    padding-top: 15px;
+    font-size: 15px;
+    font-weight: normal;
+
+}
